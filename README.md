@@ -1,6 +1,7 @@
 ### Great Expectations with Apache Spark
 
 This repo goes along with the following blog post.
+https://www.confessionsofadataguy.com/data-quality-great-expectations-for-data-engineers/
 
 The aim is just to learn about Great Expectations and put it
 to work in an Apache Spark environment to kick the wheels
