@@ -1,0 +1,102 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "202201-divvy-tripdata.csv",
+      "data_connector_name": "default_inferred_data_connector_name",
+      "datasource_name": "bike_data"
+    },
+    "batch_markers": {
+      "ge_load_time": "20220317T032245.121795Z"
+    },
+    "batch_spec": {
+      "path": "/Users/danielbeach/PycharmProjects/greatExpectationsWithSpark/great_expectations/../data/202201-divvy-tripdata.csv"
+    },
+    "expectation_suite_name": "bikes",
+    "great_expectations_version": "0.14.10",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2022-03-16T22:22:45.100981+00:00"
+    },
+    "validation_time": "20220317T032245.624323Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "kwargs": {
+          "batch_id": "920feb0b1d30026c5891795f52044b45",
+          "column_list": [
+            "_c0",
+            "_c1",
+            "_c2",
+            "_c3",
+            "_c4",
+            "_c5",
+            "_c6",
+            "_c7",
+            "_c8",
+            "_c9",
+            "_c10",
+            "_c11",
+            "_c12"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": [
+          "_c0",
+          "_c1",
+          "_c2",
+          "_c3",
+          "_c4",
+          "_c5",
+          "_c6",
+          "_c7",
+          "_c8",
+          "_c9",
+          "_c10",
+          "_c11",
+          "_c12"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "920feb0b1d30026c5891795f52044b45",
+          "max_value": 103771,
+          "min_value": 103771
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 103771
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 2,
+    "success_percent": 100.0,
+    "successful_expectations": 2,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}

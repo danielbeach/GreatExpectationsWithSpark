@@ -1,0 +1,51 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "bikes",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "_c0",
+          "_c1",
+          "_c2",
+          "_c3",
+          "_c4",
+          "_c5",
+          "_c6",
+          "_c7",
+          "_c8",
+          "_c9",
+          "_c10",
+          "_c11",
+          "_c12"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 103771,
+        "min_value": 103771
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "202201-divvy-tripdata.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "bike_data",
+          "limit": 1000
+        },
+        "citation_date": "2022-03-17T03:19:07.663806Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.14.10"
+  }
+}
